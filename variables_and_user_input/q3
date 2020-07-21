@@ -1,0 +1,11 @@
+# Write a program that takes a distance in kilometers from the user, and output the distance in meters and
+# centimeters.
+# 10km = 10000m
+# 10km = 1000000cm
+
+val1 = float(input("Please enter a value here: "))
+print(f"{val1} km =  {val1 * 1000} m ")
+print(f"{val1} km =  {val1 * 100000} cm ")
+
+# 5.4 5.4km = 5400m
+# 5.4km = 540000cm

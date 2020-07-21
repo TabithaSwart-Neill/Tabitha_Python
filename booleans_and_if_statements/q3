@@ -1,0 +1,11 @@
+# Write a program that implements the algorithm 
+# for Red Light Cameras.
+
+light_colour = "Red"
+car_detected = True
+ 
+if light_colour == "Red" and car_detected:   
+    print("Camera must flash") 
+
+
+

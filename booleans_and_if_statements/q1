@@ -1,0 +1,15 @@
+# Kate’s cat, Roary, loves catching moths. 
+# Write a program that determines whether or not 
+# it is time for Roary catch moths.
+# Input Output
+# moths_in_house = True Get the moths!
+# moths_in_house = False No threats detected.
+
+moths_in_house = True
+
+if moths_in_house:
+    print("Roary, get those moths!")   
+else:
+    print("No threats detected, thank you Roary.")   
+
+

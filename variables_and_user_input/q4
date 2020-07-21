@@ -1,0 +1,6 @@
+# Write a program that takes the users name and height 
+# (in centimeters), and outputs a summary sentence.
+
+name = input("Please enter your name: ")
+height = float(input("Please enter your height in cm : "))
+print(f"{name} is {height} cm tall ")

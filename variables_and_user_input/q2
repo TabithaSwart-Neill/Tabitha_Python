@@ -1,0 +1,9 @@
+# Write a program that takes two numbers from the user, and outputs the equation representing the
+# multiplication of the two numbers.
+
+numone = float(input("Please enter your first value here: "))
+numtwo = float(input("Please enter your second value here: "))
+total = float(numone) * float(numtwo)
+print(f"Thank you, {numone} X {numtwo}  =  {total}")
+
+

@@ -1,0 +1,28 @@
+# Roary can’t actually get the moths by herself! 
+# Amend the previous program to determine whether or
+# not it is time for Roary to go moth hunting.
+# Input Output
+# moths_in_house = True
+# mitch_is_home = True
+# Hoooman! Help me get the moths!
+# moths_in_house = False
+# mitch_is_home = False
+# No threats detected.
+# moths_in_house = True
+# mitch_is_home = False
+# Meooooooooooooow! Hissssss!
+# moths_in_house = False
+# mitch_is_home = True
+# Climb on Mitch.
+
+moths_in_house = False
+mitch_is_home = True
+
+if not moths_in_house and mitch_is_home:
+    print("Climb on Mitch.")
+if moths_in_house and mitch_is_home:    
+    print("Hoooman! Help me get the moths!")   
+if moths_in_house and not mitch_is_home:
+    print("Meooooooooooooow! Hissssss!") 
+if not moths_in_house and not mitch_is_home:
+    print("No threats detected.") 
