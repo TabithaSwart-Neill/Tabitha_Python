@@ -1,6 +1,13 @@
+###
+#
+# Lists: Question 3
+#
+# 
 # Ask the user for three names, 
 # append them to a list, 
 # then print the list.
+#
+#
 
 name_collection = []
 counter = 0

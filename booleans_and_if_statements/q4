@@ -1,15 +1,22 @@
+###
+#
+# Booleans: Question 4
+#
 # Write a program that asks the user 
 # for their height, and determine whether or not 
 # they are tall enough to
 # ride the rollercoaster, which has a height 
 # requirement of 120cms.
+#
 # Input Output
 # 120 Hop on!
 # 50 Sorry, not today :(
 # 191 Hop on!
+#
 
 name = input("What is your name? ")
 height = float(input("Please enter your height in cm : "))
+
 if height >119:
     print(f"Yes, {name} hop on!")
 else:

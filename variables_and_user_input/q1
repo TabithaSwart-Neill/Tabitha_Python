@@ -1,10 +1,17 @@
-# Write a program that takes two numbers from the user, and outputs their sum.
+#################################################################################
+#                                                                               #
+# User Input, Question 1:                                                       #
+#                                                                               #
+# Write a program that takes two numbers from the user, and outputs their sum.  #
+#                                                                               #
+#################################################################################
 
-print("Hi, this user interface will allow you to enter two numbers and will return the sum to you")
 
-numone = float(input("Please enter your first value here: "))
-numtwo = float(input("Please enter your second value here: "))
-total = float(numone) + float(numtwo)
-print(f"Thank you, the sum of {numone} and {numtwo} is {total}")
+num1 = float(input("Please enter a number here: "))
+num2 = float(input("Please enter another number: "))
+
+sum = float(num1) + float(num2)
+
+print(f"Thank you, the total of {num1} and {num2} is {sum}")
 
 

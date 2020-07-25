@@ -1,3 +1,7 @@
+###
+#
+# Booleans: Question 3
+#
 # Write a program that implements the algorithm 
 # for Red Light Cameras.
 
@@ -6,6 +10,8 @@ car_detected = True
  
 if light_colour == "Red" and car_detected:   
     print("Camera must flash") 
+
+
 
 
 
